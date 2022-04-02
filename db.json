@@ -1,0 +1,17 @@
+{
+  "recipes": [
+    {
+      "name": "testt",
+      "quantity": "3",
+      "quantityUnit": "stuks",
+      "id": 2
+    },
+    {
+      "name": "paracetamol",
+      "quantity": "300",
+      "quantityUnit": "gram",
+      "description": "test ",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<mat-list-item
+  ><p>{{ recipe.name }}</p>
+  <p>{{ recipe.quantity }} {{ recipe.quantityUnit }}</p>
+  <p>{{ recipe.description }}</p>
+  <button mat-raised-button color="warn" (click)="onDelete(recipe)" class="delete">Recept verwijderen</button><br>
+  <button mat-raised-button color="accent" class="edit" (click)="onEdit(recipe)">Recept aanpassen</button></mat-list-item
+>
+<spoed-epd-use-case-edit-recipe></spoed-epd-use-case-edit-recipe>
+<mat-divider></mat-divider>

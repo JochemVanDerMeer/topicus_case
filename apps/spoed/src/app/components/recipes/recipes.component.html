@@ -1,0 +1,11 @@
+<h2>Recept toevoegen</h2>
+<spoed-epd-use-case-add-recipe
+  (onAddRecipe)="addRecipe($event)"
+></spoed-epd-use-case-add-recipe>
+<mat-divider></mat-divider>
+<h2>Recept aanpassen of verwijderen</h2>
+<spoed-epd-use-case-recipe-listitem
+  *ngFor="let recipe of recipes"
+  [recipe]="recipe"
+  (onDeleteRecipe)="deleteRecipe(recipe)"
+></spoed-epd-use-case-recipe-listitem>

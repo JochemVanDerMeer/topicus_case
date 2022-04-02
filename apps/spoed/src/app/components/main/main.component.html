@@ -1,0 +1,7 @@
+<h1>Receptbeheer in Spoed EPD</h1>
+<button mat-raised-button mat-button [matMenuTriggerFor]="menu" class="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="['/overzicht']">Overzicht</button>
+  <button mat-menu-item [routerLink]="['/recepten-beheren']">Recepten beheren</button>
+</mat-menu>
+<mat-divider></mat-divider>

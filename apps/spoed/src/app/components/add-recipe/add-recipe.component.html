@@ -1,0 +1,37 @@
+<form (ngSubmit)="onSubmit()">
+  <mat-form-field appearance="fill">
+    <mat-label>Naam recept</mat-label>
+    <input matInput type="text" [(ngModel)]="name" name="name" id="name" required />
+  </mat-form-field><br>
+  <mat-form-field appearance="fill">
+    <mat-label>Hoeveelheid</mat-label>
+    <input
+      matInput
+      type="text"
+      [(ngModel)]="quantity"
+      name="quantity"
+      id="quantity"
+      required
+    />
+  </mat-form-field>
+  <mat-radio-group class = "radio"
+    [(ngModel)]="quantityUnit"
+    id="quantityUnit"
+    name="quantityUnit"
+  >
+    <mat-radio-button value="stuks" class="unit">Stuks</mat-radio-button>
+    <mat-radio-button value="milliliter" class="unit">Milliliter</mat-radio-button>
+    <mat-radio-button value="gram" class="unit">Gram</mat-radio-button>
+  </mat-radio-group><br>
+  <mat-form-field appearance="fill">
+    <mat-label>Beschrijving</mat-label>
+    <input
+      matInput
+      type="text"
+      [(ngModel)]="description"
+      name="description"
+      id="description"
+    />
+  </mat-form-field><br>
+  <button type="submit"s mat-raised-button color="primary" class="submit">Recept toevoegen</button>
+</form>
