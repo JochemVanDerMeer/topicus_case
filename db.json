@@ -1,17 +1,25 @@
 {
   "recipes": [
     {
-      "name": "testt",
-      "quantity": "3",
-      "quantityUnit": "stuks",
-      "id": 2
+      "name": "Ibuprofen",
+      "quantity": "30",
+      "quantityUnit": "gram",
+      "description": "Van de huisarts",
+      "id": 5
     },
     {
-      "name": "paracetamol",
-      "quantity": "300",
-      "quantityUnit": "gram",
-      "description": "test ",
-      "id": 4
+      "name": "Paracetamol",
+      "quantity": "5",
+      "quantityUnit": "stuks",
+      "description": "Van de apotheek",
+      "id": 6
+    },
+    {
+      "name": "Pleisters",
+      "quantity": "20",
+      "quantityUnit": "stuks",
+      "description": "",
+      "id": 7
     }
   ]
 }
