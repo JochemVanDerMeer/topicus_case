@@ -1,7 +1,7 @@
 # Case Topicus
 ### Jochem van der Meer
 
-Om de applicatie uit te voeren, run in twee terminals:
+Om de applicatie uit te voeren, run in twee losse terminals:
 1. ```ng serve```
 2. ```npm run server```
 
