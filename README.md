@@ -1,4 +1,5 @@
 # Case Topicus
+### Jochem van der Meer
 
 Om de applicatie uit te voeren, run:
 1. ```ng serve```
